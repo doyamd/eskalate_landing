@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDatabase } from "react-icons/fa";
-import TechCard from "./TechCard";
+// import TechCard from "./TechCard";
 const TechStacks = () => {
   return (
     <div className="flex flex-col justify-center items-center py-20 gap-[48px]">
