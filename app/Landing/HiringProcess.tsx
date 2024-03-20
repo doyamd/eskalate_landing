@@ -6,7 +6,7 @@ import HiringProcessCard from "./HiringProcessCard";
 const HiringProcess = () => {
   return (
     <div className="flex flex-col justify-center items-center pt-10 gap-[0px]">
-      <h1 className="text-md font-medium sm:text-lg md:text-[28px] lg:text-4xl">
+      <h1 className="font-medium text-3xl lg:text-4xl">
         Hiring Process
       </h1>
       

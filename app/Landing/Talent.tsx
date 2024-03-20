@@ -3,9 +3,9 @@ import TalentCard from './TalentCard';
 import { FaArrowRight } from "react-icons/fa6";
 const Talent = () => {
   return (
-    <div className='flex flex-col justify-center gap-10 items-center bg-blue-50 '>
-      <h1 className='font-bold text-lg lg:text-4xl'>Our Skilled Developers</h1>
-      <div className='grid grid-flow-col gap-6 overflow-x-scroll no-scrollbar w-full xl:w-auto p-5'>
+    <div className='flex flex-col justify-center gap-7 py-2 items-center bg-blue-50 '>
+      <h1 className='font-medium text-3xl lg:text-4xl'>Our Skilled Developers</h1>
+      <div className='grid grid-flow-col gap-6 overflow-x-scroll no-scrollbar w-full xl:w-auto p-5 px-10'>
         <TalentCard img={'/img01.jfif'} />
         <TalentCard img={'/img02.jfif'}/>
         <TalentCard img={'/img03.jfif'}/>

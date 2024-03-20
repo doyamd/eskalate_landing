@@ -2,13 +2,12 @@ import React from 'react'
 
 const SecondScreen = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 mx-5  mt-[0px] lg:mt-[50px] h-[400px] justify-between'>
-        <div className='p-2 ml-10 flex flex-col justify-center items-center md:items-start'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-10 my-2 h-full justify-between px-0 xl:px-[170px]'>
+        <div className='p-2 sm:ml-10 flex flex-col justify-center items-start'>
             <div className='mb-10'>
-                <p className='font-medium my-5 text-center text-[18px] md:text-[24px] lg:text-5xl text-gray-700'>Hire Talented Developers</p>
-                <p className='text-center text-gray-600 text-[14px] lg:text-[18px] '>
-                    Empower your tech teams with our diverse, higlly skilled remote developers,
-                    providing strong technical and communication skills at compititive rate.
+                <p className=' my-5 text-center lg:text-left  font-medium text-3xl lg:text-4xl text-gray-700'>Hire Talented Developers</p>
+                <p className='text-center lg:text-left text-gray-600 text-[18px] mt-5 font-normal"'>
+                Elevate your tech workforce with our array of remote developers boasting diverse expertise and exceptional technical prowess, coupled with effective communication abilities, all offered at competitive rates.
                 </p>
             </div>
             <div className='flex mt-[50px] w-full justify-center items-center'>
@@ -21,7 +20,7 @@ const SecondScreen = () => {
         
         </div>
         <div className='p-2'>
-        <div className='hidden md:flex justify-start pl-20 h-[300px] w-[700px]  lg:h-[400px] lg:w-[800px] overflow-hidden'>
+        <div className='hidden md:flex justify-start pl-10 h-[300px] w-[700px]  lg:h-[400px] lg:w-[800px] overflow-hidden'>
             <img src="/hire 1.png" alt="second image" className='w-[62%] h-[95%] object-cover' />
         </div>
 

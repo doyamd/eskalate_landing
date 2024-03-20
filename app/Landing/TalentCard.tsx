@@ -14,7 +14,7 @@ const TalentCard = ({img}:Props) => {
       setHoverActive(!hoverActive);
     };
   return (
-    <div className= {`col-span-1 grid grid-cols-auto gap-2 h-[230px] w-screen md:w-[380px] bg-white  rounded-xl overflow-clip p-2  ${
+    <div className= {`col-span-1 grid grid-cols-auto gap-2 h-[230px] w-[90vw] md:w-[380px] bg-white  rounded-xl overflow-clip p-2  ${
       hoverActive ?  "border-none":"border border-blue-400 transform scale-105 transition-all duration-500 ease-in-out" 
     }`}
   onMouseEnter={handleHoverAndClick}

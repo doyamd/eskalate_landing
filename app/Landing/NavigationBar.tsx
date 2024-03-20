@@ -41,7 +41,7 @@ const NavigationBar = () => {
         <div className={`${menuActive ? "grid-row-2 h-auto" : "grid-row-1"}`}>
             <div className={`fixed top-0 left-0 w-full z-50 py- md:py-0 ${!navBarActive && menuActive ? "bg-slate-100/30 backdrop-blur-sm" : navBarActive && !menuActive ? "bg-slate-100/30 backdrop-blur-sm" : navBarActive && menuActive ? "bg-slate-100/30 backdrop-blur-sm" : "transparent "} grid grid-cols-2 lg:grid-cols-3 p-1  justify-evenly shadow-md`}>
                 <div className='flex items-center justify-start lg:justify-center '><img src="/logo-blue 1.svg" alt="Logo" className='w-[80%] lg:w-[50%]' /></div>
-                <div className={`list-none hidden lg:flex justify-center font-semibold text-[18px] items-center text-gray-700`}>
+                <div className={`list-none hidden lg:flex gap-10 justify-center font-semibold text-[18px] items-center text-gray-700`}>
                     <Link href=""><li className='p-2'>Home</li></Link>
                     <Link href=""><li className='p-2'>Discover Talent</li></Link>
                     <Link href=""><li className='p-2'>About Us</li></Link>
@@ -58,9 +58,9 @@ const NavigationBar = () => {
                     )}
                 </div>
                 <div className='flex lg:hidden justify-end items-center'>
-                    <CiMenuFries className='text-[20px] text-[#2195F3]' onClick={showMenu} />
+                    <CiMenuFries className='text-[30px] text-[#2195F3]' onClick={showMenu} />
                 </div>
-                <div className={`col-span-2 ${menuActive ? "block lg:hidden" : "hidden"} `}>
+                <div className={`col-span-2 ${menuActive ? "block lg:hidden" : "hidden "} `}>
                     <Menu />
                 </div>
             </div>
